@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="413.49999999999994" y="0.0">funkySignsModel.Graphic</node>
+    <node x="499.1893939393939" y="510.0">funkySignsModel.CompoundSign</node>
+    <node x="499.1893939393939" y="197.0">funkySignsModel.Sign</node>
+    <node x="300.1893939393939" y="521.0">funkySignsModel.DynamicSign</node>
+    <node x="285.99999999999994" y="800.5">funkySignsModel.AnimatedSign</node>
+    <node x="528.0" y="812.0">funkySignsModel.SpinningSign</node>
+    <node x="895.189393939394" y="0.0">funkySignsApplication.FunkySignsApp</node>
+    <node x="587.5" y="22.5">funkySignsModel.Spy</node>
+    <node x="553.0" y="1017.0">funkySignsGui.RotatingLabel</node>
+    <node x="0.0" y="777.0">funkySignsModel.MovingSign</node>
+    <node x="45.0" y="1017.0">funkySignsModel.Updater</node>
+    <node x="279.0" y="1017.0">funkySignsGui.FunkySignsDisplayFrame</node>
+    <node x="0.0" y="1121.0">funkySignsGui.FunkySignsView</node>
+    <node x="693.1893939393939" y="533.0">funkySignsModel.PlainSign</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="funkySignsModel.AnimatedSign" target="funkySignsModel.DynamicSign">
+      <point x="0.0" y="-74.0" />
+      <point x="396.99999999999994" y="752.0" />
+      <point x="389.6893939393939" y="752.0" />
+      <point x="0.0" y="97.5" />
+    </edge>
+    <edge source="funkySignsModel.DynamicSign" target="funkySignsModel.Graphic">
+      <point x="-44.75" y="-97.5" />
+      <point x="344.9393939393939" y="177.0" />
+      <point x="439.1666666666666" y="177.0" />
+      <point x="-51.33333333333337" y="73.5" />
+    </edge>
+    <edge source="funkySignsModel.PlainSign" target="funkySignsModel.Sign">
+      <point x="-39.25" y="-85.5" />
+      <point x="732.4393939393939" y="485.0" />
+      <point x="644.1893939393939" y="485.0" />
+      <point x="58.0" y="131.5" />
+    </edge>
+    <edge source="funkySignsGui.FunkySignsView" target="funkySignsModel.Updater">
+      <point x="0.0" y="-62.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="funkySignsModel.Sign" target="funkySignsModel.Graphic">
+      <point x="-43.5" y="-131.5" />
+      <point x="542.6893939393939" y="177.0" />
+      <point x="490.49999999999994" y="177.0" />
+      <point x="0.0" y="73.5" />
+    </edge>
+    <edge source="funkySignsModel.CompoundSign" target="funkySignsModel.Sign">
+      <point x="0.0" y="-108.5" />
+      <point x="0.0" y="131.5" />
+    </edge>
+    <edge source="funkySignsModel.MovingSign" target="funkySignsModel.DynamicSign">
+      <point x="0.0" y="-97.5" />
+      <point x="133.0" y="752.0" />
+      <point x="330.02272727272725" y="752.0" />
+      <point x="-59.666666666666686" y="97.5" />
+    </edge>
+    <edge source="funkySignsModel.PlainSign" target="funkySignsModel.Graphic">
+      <point x="39.24999999999997" y="-85.5" />
+      <point x="810.9393939393939" y="167.0" />
+      <point x="541.8333333333333" y="167.0" />
+      <point x="51.33333333333337" y="73.5" />
+    </edge>
+    <edge source="funkySignsModel.DynamicSign" target="funkySignsModel.Sign">
+      <point x="44.75" y="-97.5" />
+      <point x="434.4393939393939" y="485.0" />
+      <point x="528.1893939393939" y="485.0" />
+      <point x="-58.0" y="131.5" />
+    </edge>
+    <edge source="funkySignsModel.SpinningSign" target="funkySignsModel.DynamicSign">
+      <point x="0.0" y="-62.5" />
+      <point x="627.0" y="752.0" />
+      <point x="449.3560606060606" y="752.0" />
+      <point x="59.666666666666686" y="97.5" />
+    </edge>
+    <edge source="funkySignsModel.Sign" target="funkySignsModel.Spy">
+      <point x="43.5" y="-131.5" />
+      <point x="629.6893939393939" y="177.0" />
+      <point x="696.5" y="177.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.787253141831239" x="1115.0" y="947.0" />
+  <SelectedNodes>
+    <node>funkySignsModel.Graphic</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
